@@ -4,30 +4,58 @@
 /* -----Noto Font Url ----- */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import "tailwind";
 
 /* ----- Common Style Part ----- */
-.inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
 
-.noto-sans-font {
-  font-family: "Noto Sans", sans-serif;
+
+  .inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .noto-sans-font {
+  font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
 
+  
 * {
     border: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.max-width {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.span-text-color {
+  color: #E95A08;
+}
 
 
+/* 
+
+
+
+
+ Use Telwind Css For
+  Font Color + size 
+  max-width 
+
+ Use Vanila Css For
+  Everithing else == Venila Css
+
+
+
+
+*/
 
 
 
@@ -35,3 +63,23 @@
 
 
 /* ----- Header ----- */
+
+.navbar {
+  margin-top: 30px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title{
+  font-family: "Noto Serif", serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+.discription {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+}
