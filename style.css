@@ -95,27 +95,31 @@
   } */
 
   .navbar{
-    margin-top: 13px;
-    margin-bottom: 28px;
-    padding: 0 16px;
+    margin: 13px 16px 28px;
   }
+
   .navbar img {
     width: 20%;
   }
+
   #link-item{
     display: none;
   }
+
   .hero-section  {
   flex-direction: column-reverse;
   }
-  .detailes {
-    margin: 30px 16px;
+
+  .hero-section-detailes {
+    margin: 30px 16px 65px;
   }
+
   .section-title {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     margin-bottom: 13px;
   }
+
   .discription{
-    font-size: 1rem;
+    font-size:.94rem;
   }
 }
