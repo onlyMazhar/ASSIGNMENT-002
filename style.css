@@ -1,27 +1,29 @@
 /* ----- Inter Font url ----- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 /* -----Noto Font Url ----- */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import "tailwind";
 
 /* ----- Common Style Part ----- */
 
 
-  .inter-font {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-  
-  .noto-sans-font {
+
+.noto-serif-font {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+  
 
   
 * {
@@ -73,7 +75,6 @@
 }
 
 .section-title{
-  font-family: "Noto Serif", serif;
   font-size: 4rem;
   font-weight: 700;
   color: #000000;
@@ -82,4 +83,39 @@
 .discription {
   color: rgba(0, 0, 0, 0.5);
   font-size: 1.3rem;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  /* .navbar,.detailes,.container {
+    padding: 0 16px ;
+  } */
+
+  .navbar{
+    margin-top: 13px;
+    margin-bottom: 28px;
+    padding: 0 16px;
+  }
+  .navbar img {
+    width: 20%;
+  }
+  #link-item{
+    display: none;
+  }
+  .hero-section  {
+  flex-direction: column-reverse;
+  }
+  .detailes {
+    margin: 30px 16px;
+  }
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 13px;
+  }
+  .discription{
+    font-size: 1rem;
+  }
 }
