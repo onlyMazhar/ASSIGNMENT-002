@@ -26,6 +26,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+    background-color: #f5f8ff;
+}
 
 .max-width {
   max-width: 1140px;
@@ -68,6 +71,7 @@
 }
 
 .hero-section {
+  padding-top: 106px;
   margin: 120px 0;
 }
 
