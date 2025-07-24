@@ -2,20 +2,17 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 /* -----Noto Font Url ----- */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import "tailwind";
 
 /* ----- Common Style Part ----- */
 
-
-
 .noto-serif-font {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 .inter-font {
@@ -23,9 +20,7 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-  
 
-  
 * {
   border: 0;
   padding: 0;
@@ -38,7 +33,7 @@
 }
 
 .span-text-color {
-  color: #E95A08;
+  color: #e95a08;
 }
 
 .discription {
@@ -63,11 +58,6 @@
 
 */
 
-
-
-
-
-
 /* ----- Header ----- */
 
 .navbar {
@@ -78,23 +68,22 @@
 }
 
 .hero-section {
-    margin:  120px 0;
-
+  margin: 120px 0;
 }
 
-.section-title{
+.section-title {
   font-size: 4rem;
   font-weight: 700;
   color: #000000;
 }
 
-.plants-section-title{
+.plants-section-title {
   text-align: center;
 }
 
 .flower-store {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   row-gap: 30px;
   column-gap: 20px;
 }
@@ -104,29 +93,45 @@
   font-size: 1.38rem;
   font-weight: 500;
 }
-.cart-price{
+.cart-price {
   margin-bottom: 30px;
   font-size: 1.38rem;
   font-weight: 700;
 }
 
-.cart-btn{
+.cart-btn {
   border: none;
   color: white;
   width: 100%;
   padding: 20px 0;
-  background-color: #E95A08;
+  background-color: #e95a08;
 }
 
+/* -----  Plants Lover Section ----- */
+.plant-img-container{
+  position: relative;
+}
+.badge {
+  width: 55%;
+  position: absolute;
+  top: -130px;
+  right: -95px;
+}
 
-
+.flower-lover-ul-list * {
+  margin-bottom: 20px;
+}
+.ul-list-title {
+  font-size: 3.125rem;
+  font-weight: 700;
+}
 
 @media screen and (max-width: 576px) {
   /* .navbar,.detailes,.container {
     padding: 0 16px ;
   } */
 
-  .navbar{
+  .navbar {
     margin: 13px 16px 28px;
   }
 
@@ -134,13 +139,13 @@
     width: 20%;
   }
 
-  #link-item{
+  #link-item {
     display: none;
   }
 
-  .hero-section  {
-  flex-direction: column-reverse;
-  margin:28px 0 65px;
+  .hero-section {
+    flex-direction: column-reverse;
+    margin: 28px 0 65px;
   }
 
   .hero-section-detailes {
@@ -152,18 +157,17 @@
     margin-bottom: 13px;
   }
 
-  .discription{
-    font-size:.94rem;
+  .discription {
+    font-size: 0.94rem;
   }
 
   .plants-section {
-  padding: 0 16px;
-
+    padding: 0 16px;
   }
-  .plants-section >p {
-  margin: 16px auto 28px;
-  width: 350px;
-  font-size: .94rem;
+  .plants-section > p {
+    margin: 16px auto 28px;
+    width: 350px;
+    font-size: 0.94rem;
   }
 
   .plants-section-title {
@@ -171,8 +175,8 @@
   }
 
   .flower-store {
-  margin-bottom: 40px;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
