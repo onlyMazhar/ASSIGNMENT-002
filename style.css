@@ -27,9 +27,9 @@
 
   
 * {
-    border: 0;
-    padding: 0;
-    box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .max-width {
@@ -41,6 +41,10 @@
   color: #E95A08;
 }
 
+.discription {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.38rem;
+}
 
 /* 
 
@@ -68,10 +72,14 @@
 
 .navbar {
   margin-top: 30px;
-  margin-bottom: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.hero-section {
+    margin:  120px 0;
+
 }
 
 .section-title{
@@ -80,11 +88,35 @@
   color: #000000;
 }
 
-.discription {
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 1.3rem;
+.plants-section-title{
+  text-align: center;
 }
 
+.flower-store {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  row-gap: 30px;
+  column-gap: 20px;
+}
+
+.cart-name {
+  margin-top: 30px;
+  font-size: 1.38rem;
+  font-weight: 500;
+}
+.cart-price{
+  margin-bottom: 30px;
+  font-size: 1.38rem;
+  font-weight: 700;
+}
+
+.cart-btn{
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #E95A08;
+}
 
 
 
@@ -108,10 +140,11 @@
 
   .hero-section  {
   flex-direction: column-reverse;
+  margin:28px 0 65px;
   }
 
   .hero-section-detailes {
-    margin: 30px 16px 65px;
+    margin: 30px 16px 0;
   }
 
   .section-title {
@@ -121,5 +154,25 @@
 
   .discription{
     font-size:.94rem;
+  }
+
+  .plants-section {
+  padding: 0 16px;
+
+  }
+  .plants-section >p {
+  margin: 16px auto 28px;
+  width: 350px;
+  font-size: .94rem;
+  }
+
+  .plants-section-title {
+    font-size: 1.5rem;
+  }
+
+  .flower-store {
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
   }
 }
