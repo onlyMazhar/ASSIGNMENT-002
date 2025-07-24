@@ -44,6 +44,16 @@ body {
   font-size: 1.375rem;
 }
 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 /* 
 
 
@@ -120,6 +130,7 @@ body {
   position: absolute;
   top: -130px;
   right: -95px;
+  animation: spin 10s linear infinite;
 }
 
 .flower-lover-ul-list * {
