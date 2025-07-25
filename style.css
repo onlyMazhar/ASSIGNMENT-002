@@ -242,24 +242,25 @@ body {
 /*  Subscribtion  */
 
 .subscription {
-  background-image: url(./assets/news-letter-bg.png);
-  height: 200px;
-  background-position: center center;
-  background-size: cover;
   height: 533px;
   display: flex;
-  align-items: center;  
+   align-items: center;  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   background-image: url(./assets/news-letter-bg.png);
+
+  
 }
 .news-latter {
+  text-align: center;
   width: 830px;
   margin: auto;
-  text-align: center;
 }
 
 form {
   display: flex;
-  max-width: 100%;
-}
+ }
 
 form input[type="email"], input[type="button"] {
   display: block;
@@ -279,13 +280,30 @@ form ::placeholder {
 form button {
   background-color: #e95a08;
   color: white;
-  width: 20%;
   padding: 20px ;
-
+  width: 30%;
 }
 
 
+/*  Footer  */
+footer {
+  max-width: 1120px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 350px repeat(2,1fr) 200px;
+  gap: 100px;
 
+}
+
+footer a {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}
+footer li {
+
+  margin-bottom: 32px;
+}
 
 
 
