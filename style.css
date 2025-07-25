@@ -58,22 +58,7 @@ body {
   }
 }
 
-/* 
 
-
-
-
- Use Telwind Css For
-  Font Color + size 
-  max-width 
-
- Use Vanila Css For
-  Everithing else == Venila Css
-
-
-
-
-*/
 
 /* ----- Header ----- */
 
@@ -98,7 +83,7 @@ body {
 
 
 
-
+/* Plants Section Starts */
 
 .plants-section {
   margin-bottom: 210px;
@@ -283,8 +268,6 @@ form {
   width: 100%;
 }
 
-
-
 form input[type="email"] {
   background-color: white;
   width: 75%;
@@ -332,24 +315,17 @@ footer li {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 576px) {
-  /* .navbar,.detailes,.container {
-    padding: 0 16px ;
-  } */
+
+  /* Common Css */
+
+  .discription {
+    font-size: 0.875rem;
+  }
+
+
+
+  /* navbar */
 
   .navbar {
     margin: 13px 16px 28px;
@@ -368,30 +344,29 @@ footer li {
     margin: 28px 0 65px;
   }
 
-
-
-
-
-
-.cart-price {
-  margin-bottom: 20px;
-}
-  .cart-name,.cart-price{
-    font-size: 1rem;
-  }
-
   .hero-section-detailes {
     margin: 30px 16px 0;
   }
+
+
+
+  /*  Plants Section */
+
+  .cart-price {
+    margin-bottom: 20px;
+  }
+
+  .cart-name,
+  .cart-price {
+    font-size: 1rem;
+  }
+
 
   .section-title {
     font-size: 1.9rem;
     margin-bottom: 13px;
   }
 
-  .discription {
-    font-size: 0.875rem;
-  }
 
   .plants-section {
     padding: 0 16px;
@@ -414,6 +389,8 @@ footer li {
     grid-template-columns: repeat(2, 1fr);
   }
 
+
+  /* Plants Lover Section */
   #plants-lover {
     gap: 18px;
     flex-direction: column;
@@ -441,14 +418,17 @@ footer li {
     display: none;
   }
 
+  /* Join Section */
 
   .join-section {
     margin: 0 16px 0;
     padding-bottom: 40PX;
   }
+
   .join-section-title {
     font-size: 1.5rem;
   }
+
   .join-section>p {
     width: 336px;
     margin-bottom: 50px;
@@ -478,12 +458,13 @@ footer li {
   }
 
 
+  /* Subscription Section */
   .subscription {
     padding-top: 50px;
     height: 276px;
-        padding-top: 50px;
-        height: 276px;
-    
+    padding-top: 50px;
+    height: 276px;
+
   }
 
 
@@ -508,6 +489,7 @@ footer li {
     width: 30%;
   }
 
+  /* Footer */
   footer {
     grid-template-columns: repeat(1, 1fr);
     gap: 0;
@@ -516,8 +498,8 @@ footer li {
   }
 
   .footer-logo img {
-  width: 180px;
-}
+    width: 180px;
+  }
 
 
   .footer-logo p {
