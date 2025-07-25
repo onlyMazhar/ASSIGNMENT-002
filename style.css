@@ -253,7 +253,7 @@ body {
 
 .buy-now-btn {
   padding: 0;
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
   cursor: pointer;
 }
 
@@ -288,6 +288,9 @@ form {
 form input[type="email"] {
   background-color: white;
   width: 75%;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 form ::placeholder {
@@ -342,6 +345,7 @@ footer li {
 
 
 
+
 @media screen and (max-width: 576px) {
   /* .navbar,.detailes,.container {
     padding: 0 16px ;
@@ -362,6 +366,18 @@ footer li {
   .hero-section {
     flex-direction: column-reverse;
     margin: 28px 0 65px;
+  }
+
+
+
+
+
+
+.cart-price {
+  margin-bottom: 20px;
+}
+  .cart-name,.cart-price{
+    font-size: 1rem;
   }
 
   .hero-section-detailes {
@@ -498,6 +514,11 @@ footer li {
     padding-left: 16px;
     padding-right: 16px;
   }
+
+  .footer-logo img {
+  width: 180px;
+}
+
 
   .footer-logo p {
     font-size: 1rem;
