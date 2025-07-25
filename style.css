@@ -123,6 +123,7 @@ body {
   width: 100%;
   padding: 13px 0;
   background-color: #e95a08;
+  cursor: pointer;
 }
 
 /* -----  Plants Lover Section ----- */
@@ -285,6 +286,7 @@ form button {
   color: white;
   padding: 20px 0 ;
   width: 25%;
+  cursor: pointer;
 }
 
 
