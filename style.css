@@ -32,7 +32,7 @@ body {
 
 .max-width {
   max-width: 1140px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .span-text-color {
@@ -236,6 +236,74 @@ body {
   border-bottom: 2px solid white;
   cursor: pointer;
 }
+
+
+
+/*  Subscribtion  */
+
+.subscription {
+  background-image: url(./assets/news-letter-bg.png);
+  height: 200px;
+  background-position: center center;
+  background-size: cover;
+  height: 533px;
+  display: flex;
+  align-items: center;  
+}
+.news-latter {
+  width: 830px;
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  max-width: 100%;
+}
+
+form input[type="email"], input[type="button"] {
+  display: block;
+}
+
+
+form input[type="email"] {
+  width: 644px;
+  background-color: white;
+  max-width: 80%;
+}
+form ::placeholder {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+form button {
+  background-color: #e95a08;
+  color: white;
+  width: 20%;
+  padding: 20px ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
   /* .navbar,.detailes,.container {
